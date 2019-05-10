@@ -1,0 +1,13 @@
+server:
+  port: 8889
+spring:
+  application:
+    name: ownerandpet-service
+  datasource:
+    url: jdbc:h2:~/testowner
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
